@@ -1,0 +1,362 @@
+.ommig {
+  background-image: url(IMG/ombgr.png);
+}
+.foliebgr {
+  background-image: url(IMG/Forside_web.png);
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: bisque;
+}
+@media (max-width: 700px) {
+  .forside {
+    background-image: url(IMG/Tænd\(er\)mobil.jpg);
+    background-repeat: no-repeat;
+  }
+  .tileportræt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 75px;
+  }
+  .navn {
+    color: #ff004e;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 775px;
+  }
+  .port {
+    color: #dbeef9;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+  }
+  .henvis {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 12%;
+    position: relative;
+    font-size: 22px;
+    padding-top: 73px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 50%;
+  }
+  header {
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+  }
+  .headerknap {
+    text-align: justify;
+    margin-left: 20px;
+    color: yellow;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+  }
+  .headerknap1 {
+    text-align: justify;
+    margin-left: 20px;
+    color: #ff004e;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+    font-size: 23px;
+    padding-right: 50px;
+  }
+  .temaknap {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans;
+    font-weight: bold;
+    color: #dc0000;
+    font-size: 46px;
+    padding-top: 131px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:click {
+    color: #ff004e;
+  }
+  .temah1 {
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-top: 110px;
+  }
+  .ommignavn {
+    text-align: center;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+  }
+  .beskrivelse {
+    color: #dbeef9;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+    margin-inline-end: 11%;
+    margin-inline-start: 11%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .credit {
+    color: #dbeef9;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+@media (min-width: 700px) {
+  .forside {
+    background-image: url(IMG/Tænd\(er\).jpg);
+    background-repeat: no-repeat;
+  }
+  .navn {
+    color: #ff004e;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 68%;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: white;
+  }
+  .port {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 96px;
+    padding-left: 120px;
+    position: absolute;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff004e;
+  }
+  .henvis {
+    color: yellow;
+    padding-left: 139px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 705px;
+    font-size: 60px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+  }
+  .cv {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+  }
+  .temah1 {
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .temaknap {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans;
+    font-weight: bold;
+    color: #dc0000;
+    font-size: 46px;
+    padding-top: 90px;
+  }
+  .tema3h2 {
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    text-align: center;
+    font-size: 38px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .tema3h3 {
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    font-size: 25px;
+    text-align: justify;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .tema3stik {
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .tema3txt {
+    text-align: justify;
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .indexweb {
+    max-width: 100%;
+  }
+  .galleriweb {
+    max-width: 100%;
+  }
+  .gqfys {
+    max-height: 40%;
+    max-width: 100%;
+    padding-left: 177px;
+  }
+  .passionforside {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .artikelside {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .t3b {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .moodboard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  .tileportræt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  .tile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  .fodnote {
+    color: red;
+    text-align: justify;
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  header {
+    background-color: black;
+    padding: 20px;
+  }
+  .headerknap {
+    text-align: justify;
+    margin-left: 20px;
+    color: yellow;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+  }
+  .headerknap1 {
+    text-align: justify;
+    margin-left: 20px;
+    color: #ff004e;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+    font-size: 23px;
+  }
+  .sprite {
+    width: 60%;
+  }
+  .sprite1 {
+    width: 100%;
+  }
+  .Gameboard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+  .ommignavn {
+    text-align: center;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+  }
+  .beskrivelse {
+    color: #dbeef9;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .credit {
+    color: #dbeef9;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: pink;
+    margin-inline-end: 25%;
+    margin-inline-start: 25%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .værk {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+}

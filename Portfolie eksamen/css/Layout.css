@@ -1,0 +1,32 @@
+@media (min-width: 700px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .col_order {
+    order: -1;
+  }
+}
+.portræt {
+  max-width: 40%;
+}
