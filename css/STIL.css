@@ -358,5 +358,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
   }
 }
